@@ -1,6 +1,9 @@
 body{
     background-color: rgb(216, 216, 216);
      font-family: "Open Sans", sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 .ProfileCard{
@@ -9,7 +12,7 @@ body{
     background-color: #fff;
     margin: 150px;
     border-radius: 65px;  
-   
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     
 }
 
@@ -30,7 +33,18 @@ body{
 
 }
 .verified img{
-    width: 30px;
-    
+   width: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -32px;
+   margin-left: 250px;
 
+}
+
+.about{
+    font-size: 20px;
+    color: gray;
+    width:300PX ;
+    margin-left:60px ;
 }
