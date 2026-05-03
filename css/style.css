@@ -20,3 +20,17 @@ body{
     margin-left: 17px;
    
 }
+
+.name{
+    font-size: 29px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin: 25px;
+    margin-left: 60px;
+
+}
+.verified img{
+    width: 30px;
+    
+
+}
