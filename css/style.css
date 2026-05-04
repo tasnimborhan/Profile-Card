@@ -1,21 +1,28 @@
 body{
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(243, 243, 243);
      font-family: "Open Sans", sans-serif;
      display: flex;
      justify-content: center;
      align-items: center;
+     text-decoration: none;
+     
 }
-
+ul,ol{
+    list-style: none;
+}
 .ProfileCard{
     height: 800px;
     width: 450px;
     background-color: #fff;
     margin: 150px;
     border-radius: 65px;  
-   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: .5s;
+   
     
 }
-
+.ProfileCard:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
 
 .profile-image img{
     margin-top: 20px;
@@ -47,4 +54,27 @@ body{
     color: gray;
     width:300PX ;
     margin-left:60px ;
+}
+
+.button{
+    background-color: #EFEFEF;
+    color: black;
+    border-style: none;
+    border: none;
+    padding: 20px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+     font-family: "Open Sans", sans-serif;
+     margin-left: 145px;
+     margin-top: 40px;
+}
+
+.button:hover{
+    background-color: rgb(87, 170, 87);
+    color: white;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: 1s;
+
 }
